@@ -77,6 +77,12 @@
       padding-top: 30px;
   }
 
+  a {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+  }
+
   .example-block {
       margin: 10px;
       height: 150px;
