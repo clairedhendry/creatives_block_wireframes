@@ -3,14 +3,16 @@
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif;
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    width: 100vw;
     font-size: 20px;
     background-color: rgb(51, 47, 47);
     color: white;
     text-align: center;
     line-height: 1.5;
   }
+
 
   @media screen and (max-width: 450px) {
 
@@ -83,11 +85,85 @@
       cursor: pointer;
   }
 
+  .recent-content-block > a {
+      height: 150px;
+  }
+
   .example-block {
       margin: 10px;
       height: 150px;
       background-color: rgb(255, 221, 146);
   }
+
+  .registration-page {
+    flex-direction: column;
+      width: 250px;
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;   
+      color: black;  
+  }
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+   
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+
+.account-page {
+    height: 100%;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-field {
+    font-size: medium;
+    padding: 15px;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+input {
+    padding: 5px;
+    margin: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
 
   .footer {
       margin-top: 50px;
